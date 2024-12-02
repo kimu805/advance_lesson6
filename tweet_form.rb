@@ -10,7 +10,7 @@ class TweetForm
   end
 
   def create
-    
+    Tweet.new(contents)
   end
 
   def contents
